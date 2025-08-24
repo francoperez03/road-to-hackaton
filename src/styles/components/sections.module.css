@@ -1,0 +1,121 @@
+/**
+ * Section Component Styles
+ * Reusable section layouts with consistent spacing
+ */
+
+.section {
+  width: 100%;
+  position: relative;
+}
+
+/* Background variants */
+.backgroundDefault {
+  background: var(--ifm-background-color);
+}
+
+.backgroundDark {
+  background: var(--color-background-dark);
+  color: var(--color-white);
+}
+
+.backgroundLight {
+  background: var(--color-white);
+  color: var(--color-text-dark);
+}
+
+.backgroundPrimary {
+  background: var(--color-primary-light);
+}
+
+/* Padding variants */
+.paddingNone {
+  padding: 0;
+}
+
+.paddingSmall {
+  padding: var(--space-md) 0;
+}
+
+.paddingDefault {
+  padding: var(--space-lg) 0;
+}
+
+.paddingLarge {
+  padding: var(--space-xl) 0;
+}
+
+/* Grid pattern overlay (Aleph style) */
+.gridPattern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(74, 85, 104, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74, 85, 104, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Hero section specific styles */
+.hero {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid var(--color-primary);
+}
+
+.heroTitle {
+  font-weight: var(--font-weight-black);
+  color: var(--color-white);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: var(--space-sm);
+}
+
+.heroSubtitle {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-md);
+  color: var(--color-white);
+  opacity: 0.9;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-sm);
+}
+
+.heroDescription {
+  font-size: var(--font-size-xl);
+  line-height: 1.6;
+  color: var(--color-white);
+  opacity: 0.9;
+  margin-bottom: var(--space-md);
+}
+
+/* Features section */
+.features {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 996px) {
+  .hero {
+    padding: var(--space-md);
+  }
+  
+  .heroDescription {
+    font-size: var(--font-size-lg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroDescription {
+    font-size: var(--font-size-base);
+  }
+}

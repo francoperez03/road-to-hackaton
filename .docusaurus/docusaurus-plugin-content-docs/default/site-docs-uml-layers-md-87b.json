@@ -1,0 +1,17 @@
+{
+  "id": "uml-layers",
+  "title": "UML Layers - Arquitectura ZK",
+  "description": "Capas y diagramas de referencia para proyectos ZK/Noir/Solidity",
+  "source": "@site/docs/uml-layers.md",
+  "sourceDirName": ".",
+  "slug": "/uml-layers",
+  "permalink": "/docs/uml-layers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "UML Layers - Arquitectura ZK",
+    "description": "Capas y diagramas de referencia para proyectos ZK/Noir/Solidity"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "docs/gas-90-10",
+  "title": "Gas 90/10 - Optimización Práctica",
+  "description": "10 hotspots que cubren 90% de optimizaciones de gas en Solidity",
+  "source": "@site/docs/docs/gas-90-10.md",
+  "sourceDirName": "docs",
+  "slug": "/docs/gas-90-10",
+  "permalink": "/docs/docs/gas-90-10",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gas 90/10 - Optimización Práctica",
+    "description": "10 hotspots que cubren 90% de optimizaciones de gas en Solidity"
+  }
+}

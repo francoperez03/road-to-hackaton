@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/connect",
+  "source": "@site/src/pages/connect.md",
+  "title": "Coaching 1:1 - Road To Victory",
+  "description": "Sesiones intensivas de coaching para hackathons ZK",
+  "frontMatter": {
+    "title": "Coaching 1:1 - Road To Victory",
+    "description": "Sesiones intensivas de coaching para hackathons ZK"
+  },
+  "unlisted": false
+}

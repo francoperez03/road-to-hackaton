@@ -1,0 +1,17 @@
+{
+  "id": "ai-playbook-noir-solidity",
+  "title": "AI Playbook - Noir/Solidity",
+  "description": "Prompts específicos y reglas para acelerar desarrollo con IA en ZK/Noir/Solidity",
+  "source": "@site/docs/ai-playbook-noir-solidity.md",
+  "sourceDirName": ".",
+  "slug": "/ai-playbook-noir-solidity",
+  "permalink": "/docs/ai-playbook-noir-solidity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "AI Playbook - Noir/Solidity",
+    "description": "Prompts específicos y reglas para acelerar desarrollo con IA en ZK/Noir/Solidity"
+  }
+}

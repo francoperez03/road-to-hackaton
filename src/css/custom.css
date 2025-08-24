@@ -1,0 +1,208 @@
+/**
+ * Global Styles - Road To Hackathon
+ * Import design tokens and configure Docusaurus integration
+ */
+
+@import '/src/styles/tokens/design-tokens.css';
+
+/**
+ * Docusaurus Integration
+ * Map our design tokens to Docusaurus variables
+ */
+:root {
+  /* Docusaurus color mappings */
+  --ifm-color-primary: var(--color-primary);
+  --ifm-color-primary-dark: var(--color-primary-hover);
+  --ifm-color-primary-darker: #00CC66;
+  --ifm-color-primary-darkest: #00B355;
+  --ifm-color-primary-light: #33FF99;
+  --ifm-color-primary-lighter: #66FFAA;
+  --ifm-color-primary-lightest: #99FFBB;
+  
+  /* Docusaurus component customizations */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: var(--color-primary-light);
+  --ifm-background-color: var(--color-white);
+  --ifm-navbar-background-color: var(--color-background-dark);
+  --ifm-navbar-link-color: var(--color-primary);
+  --ifm-navbar-link-hover-color: var(--color-white);
+}
+
+/* Dark mode with Aleph colors */
+[data-theme='dark'] {
+  --ifm-color-primary: var(--color-primary);
+  --ifm-color-primary-dark: var(--color-primary-hover);
+  --ifm-color-primary-darker: #00CC66;
+  --ifm-color-primary-darkest: #00B355;
+  --ifm-color-primary-light: #33FF99;
+  --ifm-color-primary-lighter: #66FFAA;
+  --ifm-color-primary-lightest: #99FFBB;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.2);
+  --ifm-background-color: var(--color-background-dark);
+  --ifm-navbar-background-color: var(--color-text-dark);
+}
+
+/* Custom styles for Road To Hackathon theme - Aleph style */
+.hero {
+  background: var(--color-background-dark);
+  color: var(--color-white);
+  border-top: 4px solid var(--color-primary);
+}
+
+.hero__title {
+  font-weight: 900;
+  color: var(--color-white);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--color-white);
+  opacity: 0.9;
+}
+
+/* Complete button override - unified behavior */
+.button,
+.button--primary,
+.button--secondary,
+a.button,
+a.button--primary, 
+a.button--secondary {
+  /* Reset all default styles */
+  background: none !important;
+  border: none !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  
+  /* Apply unified base styles */
+  display: inline-block !important;
+  padding: 16px 32px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border-radius: 4px !important;
+  font-family: 'Arial Black', sans-serif !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid transparent !important;
+}
+
+/* Primary button styles */
+.button--primary,
+a.button--primary,
+.button.button--primary {
+  background: var(--color-primary) !important;
+  border: 2px solid var(--color-primary) !important;
+  color: var(--color-text-dark) !important;
+}
+
+.button--primary:hover,
+a.button--primary:hover,
+.button.button--primary:hover {
+  background: var(--color-primary-hover) !important;
+  border: 2px solid var(--color-primary-hover) !important;
+  color: var(--color-text-dark) !important;
+  text-decoration: none !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(0, 255, 136, 0.4) !important;
+}
+
+/* Secondary button styles */
+.button--secondary,
+a.button--secondary,
+.button.button--secondary {
+  background: transparent !important;
+  border: 2px solid var(--color-primary) !important;
+  color: var(--color-primary) !important;
+}
+
+.button--secondary:hover,
+a.button--secondary:hover,
+.button.button--secondary:hover {
+  background: var(--color-primary) !important;
+  border: 2px solid var(--color-primary) !important;
+  color: var(--color-text-dark) !important;
+  text-decoration: none !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(0, 255, 136, 0.4) !important;
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+  text-align: center;
+}
+
+/* Tips and callouts using Aleph palette */
+.admonition-content p {
+  margin-bottom: 0;
+}
+
+/* Alert styles with consistent colors */
+.alert--warning {
+  background-color: var(--color-primary-light);
+  border-left: 4px solid var(--color-primary);
+  color: var(--color-text-dark);
+}
+
+.alert--success {
+  background-color: var(--color-primary-light);
+  border-left: 4px solid var(--color-primary);
+  color: var(--color-text-dark);
+}
+
+/* Section backgrounds for cohesion */
+.features {
+  background: var(--color-white);
+  padding: 4rem 0;
+}
+
+[data-theme='dark'] .features {
+  background: var(--color-background-dark);
+}
+
+/* Homepage sections styling */
+.tipBox {
+  margin-top: 2rem;
+  text-align: center;
+  background: var(--color-primary-light);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+}
+
+/* Grid-like styling inspired by Aleph design */
+.container {
+  position: relative;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(74, 85, 104, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74, 85, 104, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Feature cards styling */
+.featureLink {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.featureLink:hover {
+  color: var(--color-primary-hover);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Navbar enhancements */
+.navbar__title {
+  color: var(--color-primary) !important;
+  font-weight: 900;
+}

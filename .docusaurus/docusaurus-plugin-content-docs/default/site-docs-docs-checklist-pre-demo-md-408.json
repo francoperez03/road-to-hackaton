@@ -1,0 +1,17 @@
+{
+  "id": "docs/checklist-pre-demo",
+  "title": "Checklist Pre-Demo",
+  "description": "Lista verificable para audit rápido antes de demo o deploy",
+  "source": "@site/docs/docs/checklist-pre-demo.md",
+  "sourceDirName": "docs",
+  "slug": "/docs/checklist-pre-demo",
+  "permalink": "/docs/docs/checklist-pre-demo",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Checklist Pre-Demo",
+    "description": "Lista verificable para audit rápido antes de demo o deploy"
+  }
+}

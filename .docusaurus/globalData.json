@@ -1,0 +1,48 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "cheatsheet-solidity-2025",
+          "docs": [
+            {
+              "id": "cheatsheet-solidity-2025",
+              "path": "/docs/cheatsheet-solidity-2025",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "checklist-pre-demo",
+              "path": "/docs/checklist-pre-demo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gas-90-10",
+              "path": "/docs/gas-90-10",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "zk-lite-5q",
+              "path": "/docs/zk-lite-5q",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/cheatsheet-solidity-2025",
+                "label": "cheatsheet-solidity-2025"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

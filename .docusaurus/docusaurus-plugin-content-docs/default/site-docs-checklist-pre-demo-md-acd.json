@@ -1,0 +1,26 @@
+{
+  "id": "checklist-pre-demo",
+  "title": "Checklist Pre-Demo",
+  "description": "Lista verificable para audit rápido antes de demo o deploy",
+  "source": "@site/docs/checklist-pre-demo.md",
+  "sourceDirName": ".",
+  "slug": "/checklist-pre-demo",
+  "permalink": "/docs/checklist-pre-demo",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Checklist Pre-Demo",
+    "description": "Lista verificable para audit rápido antes de demo o deploy"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cheatsheet Solidity 2025",
+    "permalink": "/docs/cheatsheet-solidity-2025"
+  },
+  "next": {
+    "title": "Gas 90/10 - Optimización Práctica",
+    "permalink": "/docs/gas-90-10"
+  }
+}

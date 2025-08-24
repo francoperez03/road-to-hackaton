@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/uml-layers",
+  "source": "@site/src/pages/uml-layers.md",
+  "title": "Arquitecturas Ganadoras - Hackathons ZK",
+  "description": "Patrones y diagramas probados en hackathons ZK/Noir/Solidity ganadores",
+  "frontMatter": {
+    "title": "Arquitecturas Ganadoras - Hackathons ZK",
+    "description": "Patrones y diagramas probados en hackathons ZK/Noir/Solidity ganadores"
+  },
+  "unlisted": false
+}

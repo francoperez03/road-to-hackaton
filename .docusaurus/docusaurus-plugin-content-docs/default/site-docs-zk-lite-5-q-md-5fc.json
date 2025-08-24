@@ -1,0 +1,22 @@
+{
+  "id": "zk-lite-5q",
+  "title": "ZK-Lite (5Q) - Decisiones Rápidas",
+  "description": "5 preguntas para decidir entre Merkle Trees, Set Membership o RLN",
+  "source": "@site/docs/zk-lite-5q.md",
+  "sourceDirName": ".",
+  "slug": "/zk-lite-5q",
+  "permalink": "/docs/zk-lite-5q",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ZK-Lite (5Q) - Decisiones Rápidas",
+    "description": "5 preguntas para decidir entre Merkle Trees, Set Membership o RLN"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gas 90/10 - Optimización Práctica",
+    "permalink": "/docs/gas-90-10"
+  }
+}

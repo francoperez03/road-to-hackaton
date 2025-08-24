@@ -1,0 +1,26 @@
+{
+  "id": "gas-90-10",
+  "title": "Gas 90/10 - Optimización Práctica",
+  "description": "10 hotspots que cubren 90% de optimizaciones de gas en Solidity",
+  "source": "@site/docs/gas-90-10.md",
+  "sourceDirName": ".",
+  "slug": "/gas-90-10",
+  "permalink": "/docs/gas-90-10",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gas 90/10 - Optimización Práctica",
+    "description": "10 hotspots que cubren 90% de optimizaciones de gas en Solidity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Checklist Pre-Demo",
+    "permalink": "/docs/checklist-pre-demo"
+  },
+  "next": {
+    "title": "ZK-Lite (5Q) - Decisiones Rápidas",
+    "permalink": "/docs/zk-lite-5q"
+  }
+}

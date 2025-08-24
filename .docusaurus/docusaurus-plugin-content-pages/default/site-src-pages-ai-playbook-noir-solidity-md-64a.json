@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/ai-playbook-noir-solidity",
+  "source": "@site/src/pages/ai-playbook-noir-solidity.md",
+  "title": "Entrenamiento IA - Hackathons ZK",
+  "description": "Estrategias y prompts probados para construir proyectos ganadores en hackathons ZK/Noir/Solidity",
+  "frontMatter": {
+    "title": "Entrenamiento IA - Hackathons ZK",
+    "description": "Estrategias y prompts probados para construir proyectos ganadores en hackathons ZK/Noir/Solidity"
+  },
+  "unlisted": false
+}

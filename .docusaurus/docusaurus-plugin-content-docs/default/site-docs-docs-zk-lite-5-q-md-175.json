@@ -1,0 +1,17 @@
+{
+  "id": "docs/zk-lite-5q",
+  "title": "ZK-Lite (5Q) - Decisiones Rápidas",
+  "description": "5 preguntas para decidir entre Merkle Trees, Set Membership o RLN",
+  "source": "@site/docs/docs/zk-lite-5q.md",
+  "sourceDirName": "docs",
+  "slug": "/docs/zk-lite-5q",
+  "permalink": "/docs/docs/zk-lite-5q",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ZK-Lite (5Q) - Decisiones Rápidas",
+    "description": "5 preguntas para decidir entre Merkle Trees, Set Membership o RLN"
+  }
+}

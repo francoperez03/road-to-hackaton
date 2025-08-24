@@ -1,0 +1,102 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/ai-playbook-noir-solidity-4a6": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---ai-playbook-noir-soliditya-74-bac"
+    },
+    "content": "content---ai-playbook-noir-solidity-64-a-b27"
+  },
+  "/connect-919": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---ai-playbook-noir-soliditya-74-bac"
+    },
+    "content": "content---connect-1-c-9-388"
+  },
+  "/uml-layers-7dd": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---ai-playbook-noir-soliditya-74-bac"
+    },
+    "content": "content---uml-layersd-2-a-5c2"
+  },
+  "/docs-795": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-2b5": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-e7c": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/cheatsheet-solidity-2025-3b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-cheatsheet-solidity-2025-a-9-d-636"
+  },
+  "/docs/checklist-pre-demo-a44": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-checklist-pre-demoacd-719"
+  },
+  "/docs/gas-90-10-6ad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-gas-90-1000-c-6cb"
+  },
+  "/docs/zk-lite-5q-8e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-zk-lite-5-q-5-fc-b80"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---ai-playbook-noir-soliditya-74-bac"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

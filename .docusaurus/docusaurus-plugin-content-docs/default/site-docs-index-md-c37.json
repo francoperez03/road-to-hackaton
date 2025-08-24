@@ -1,0 +1,18 @@
+{
+  "id": "index",
+  "title": "Mentoría ZK · @crypto_dev_1",
+  "description": "Atajos reales para llegar a demo - Noir, Solidity, backend y privacy",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "layout": "home",
+    "title": "Mentoría ZK · @crypto_dev_1",
+    "description": "Atajos reales para llegar a demo - Noir, Solidity, backend y privacy"
+  }
+}

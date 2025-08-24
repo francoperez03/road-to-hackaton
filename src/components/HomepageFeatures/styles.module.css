@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureLink {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
+
+.featureLink:hover {
+  text-decoration: none;
+  color: var(--ifm-color-primary-dark);
+}
